@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Form</title>
+</head>
+<body>
+  <section class="container">
+    <form method="Post" action="action.php" id="form">
+      <label for="name">Name: </label>
+      <input required name="name" type="text" id="name" placeholder="Enter your name">
+
+      <label for="lastName">LastName: </label>
+      <input required type="text" name="lastName" id="lastName" placeholder="Enter your Last Name">
+      
+      <label for="email">Email: </label>
+      <input required type="text" name="email" id="email" placeholder=" Enter your email Email">
+
+      <label for="phoneNumber">Number: </label>
+      <input required type="text" name="phone" id="phone" placeholder="Enter your number">
+
+      <textarea placeholder="Enter Details..."></textarea>
+      <button class="btn-seconadary">Sumit</button>
+    </form>
+
+    <form method="Post" action="#">
+      <label for="name">Name: </label>
+      <input required name="name" type="text" id="name">
+
+      <label for="lastName">LastName: </label>
+      <input required type="text" name="lastName" id="lastName">
+      
+      <label for="email">Email: </label>
+      <input required type="text" name="email" id="email">
+
+      <label for="phoneNumber">Number: </label>
+      <input required type="text" name="phone" id="phone">
+
+      <textarea placeholder="Enter Details..."></textarea>
+      <button class="btn">Sumit</button>
+    </form>
+  </section>
+  <!---JS-->
+  <script src="script.js"></script>
+</body>
+</html>

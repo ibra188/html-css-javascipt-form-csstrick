@@ -1,0 +1,40 @@
+.container{
+  border: rgb(228, 11, 11) dotted;
+  max-height: 100%;
+  max-width: 500;
+  margin: 0 auto;
+  background:  #000;
+  color: #fff;
+  padding: 150px;
+}
+form{
+  border: #fff dotted;
+   margin: 17px;
+  width: 100%;
+  padding: 30px;
+  max-height: 100%;
+}
+label{
+  border: rgb(63, 26, 211) dotted;
+  padding: 12px;
+  font-family:  sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+input{
+  border: rgb(12, 201, 75) dotted;
+  padding: 12px;
+  margin: 4;
+}
+textarea{
+  border: rgb(80, 13, 1) dotted;
+  padding: 30px;
+  width: 50%;
+  height: 50%;
+}
+button{
+  border: rgb(1, 29, 29) dotted;
+  padding: 12px;
+  border-radius: 10px;
+  width: 6rem;
+}
